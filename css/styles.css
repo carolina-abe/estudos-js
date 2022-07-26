@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&display=swap');
+
+body {
+  margin: 0 auto;
+  width: 65%;
+  background-color: #FFBFB1;
+  font-family: 'Nunito', sans-serif;
+}
+
+input {
+  width: 50px;
+}
+
+h1 {
+  margin: 5px;
+  color: #BF1B1B
+}
+
+label {
+  display: block;
+  padding-top: 10px;
+  font-weight: bold;
+  width: 85%;
+  color: #BC8989;
+}
+
+p {
+  margin: 0;
+}
+
+.aprovado {
+  color: #41AD07;
+}
+
+.reprovado {
+  color: #F70000;
+}
+
+.form-nota {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 90px 100px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #8888;
+  background-color: #FFF5F3;
+}
+
+.nota {
+  width: 85%;
+  padding-top: 10px;
+}
+
+.aluno {
+  width: 100%;
+}
+
+.descricao {
+  color: #C63939;
+  font-style: italic;
+  font-weight: bold;
+}

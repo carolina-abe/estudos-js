@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/media.js"></script>
+  <title>Média final</title>
+</head>
+
+<body>
+  <div class="form-nota">
+    <h1>Calcule a média final</h1>
+    <p class="descricao">Insira o nome e as notas do aluno que deseja calcular a média.</p>
+
+    <label>
+      Nome do aluno
+      <input type="text" id="aluno" class="aluno">
+    </label>
+    
+    <div class="nota">
+    <label>
+      Primeira nota
+      <input type="number" id="nota1">
+    </label>
+
+    <label>
+      Segunda nota
+      <input type="number" id="nota2">
+    </label>
+
+    <label>
+      Terceira nota
+      <input type="number" id="nota3">
+    </label>
+
+    <label>Quarta nota
+      <input type="number" id="nota4">
+    </label>
+  </div>
+
+  <button onclick="Calcular()">Calcule</button>
+
+    <label id="situacao">Situação:
+      <p>Aqui vai a situação do aluno</p>
+    </label>
+  </div>
+</body>
+
+</html>
